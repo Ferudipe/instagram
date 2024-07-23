@@ -1,34 +1,60 @@
-body{
-    margin:0;
+body {
+    margin: 0;
     padding: 0;
-    background-color: grey;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
 }
-.header{
-    border: 0px solid red;
-    padding: 5px;
-    background-color: white;
+
+.header {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
 }
-.header h1{
-    width: 600px;
-    border: 0px solid red;
-    margin: 0 auto;
+
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
 }
-.post{
-    border:0px solid black;
-    width: 600px;
-    margin: 0 auto;
-    margin-top: 20px;
-    background-color: white;
-    padding: 10px;
+
+.post {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
 }
-.post header{
-    display:flex;
+
+.post-header {
+    display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
 }
-.post-image img{
+
+.post-header h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.post-header p {
+    margin: 0;
+    font-size: 14px;
+    color: #999;
+}
+
+.post-image img {
     width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
 }
-.post-footer{
-    padding: 0px 10px;
+
+.post-footer {
+    font-size: 14px;
+    color: #555;
 }
